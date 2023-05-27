@@ -2,7 +2,8 @@
 	"name": "Go",
 	"image": "mcr.microsoft.com/devcontainers/go:0-1.20",
 	"features": {
-		"ghcr.io/devcontainers/features/git:1": {}
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers/features/github-cli:1":{}
 	},
 
 	"postCreateCommand": "go mod tidy"
